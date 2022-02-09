@@ -2,7 +2,7 @@
 // @name         Search-Block
 // @namespace    https://greasyfork.org/zh-CN/users/874463
 // @version      0.1
-// @description  自动屏蔽搜索结果中某些网站
+// @description  自动屏蔽搜索结果中某些网站, 比如 CSDN
 
 // @match        *://www.google.com/search*
 // @match        *://www.baidu.com/s*
