@@ -11,6 +11,7 @@
 // @grant        none
 
 // @author       Uyloal
+// @license      MIT
 // @code         https://github.com/uyloal/search-block
 // @date         2022-02-09
 // ==/UserScript==
