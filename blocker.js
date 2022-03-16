@@ -2,9 +2,10 @@
 // @name         Search-Block
 // @namespace    https://greasyfork.org/zh-CN/users/874463
 // @version      0.1.1
-// @description  自动屏蔽搜索结果中某些网站, 比如 CSDN
+// @description  自动屏蔽搜索结果中某些网站，比如 CSDN
 
 // @match        *://www.google.com/search*
+// @match        *://www.google.com.hk/search*
 // @match        *://www.baidu.com/s*
 // @match        *://www.baidu.com/$
 // @icon         https://s3.bmp.ovh/imgs/2022/02/b5ded49cff4df12d.png
@@ -27,6 +28,10 @@
       rule: "-csdn",
     },
     "www.google.com": {
+      feedSelector: "input.gLFyf.gsfi",
+      rule: "-csdn",
+    },
+    "www.google.com.hk": {
       feedSelector: "input.gLFyf.gsfi",
       rule: "-csdn",
     },
